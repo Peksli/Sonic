@@ -1,0 +1,3 @@
+[submodule "Sonic/vendor/spdlog"]
+	path = Sonic/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

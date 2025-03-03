@@ -4,14 +4,8 @@
 class User : public Sonic::Application
 {
 public:
-	User()
-	{
-	}
-
-	~User()
-	{
-	}
-
+	User() = default;
+	~User() = default;
 };
 
 

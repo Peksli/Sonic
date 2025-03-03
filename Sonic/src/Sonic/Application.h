@@ -14,7 +14,6 @@ namespace Sonic {
 		void run();
 	};
 
-	//will be defined in a client
 	Application* CreateApplication();
 
 };
