@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Core.h"
+#include "Core.h"
 #include "spdlog/spdlog.h"
 
 #define SONIC_DEFAULT_LOGGER_NAME "sonicLogger"
