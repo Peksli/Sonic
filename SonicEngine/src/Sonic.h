@@ -2,4 +2,4 @@
 
 #include "Sonic/Application.h"
 
-#include "Sonic/LogManager.h"
+#include "Sonic/managers/LogManager/LogManager.h"

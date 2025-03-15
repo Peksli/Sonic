@@ -24,7 +24,10 @@
     <ClInclude Include="src\Sonic\Core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Sonic\LogManager.h">
+    <ClInclude Include="src\Sonic\managers\LogManager\LogManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sonic\managers\EventManager\Event.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,7 +35,7 @@
     <ClCompile Include="src\Sonic\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Sonic\LogManager.cpp">
+    <ClCompile Include="src\Sonic\managers\LogManager\LogManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

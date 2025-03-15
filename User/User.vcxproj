@@ -112,7 +112,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_WINDOWS;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\C++\Sonic\SonicEngine\src; $(SolutionDir)SonicEngine/src/vendor/spdlog/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\C++\Sonic\SonicEngine\src;$(SolutionDir)/SonicEngine/src/Sonic; $(SolutionDir)SonicEngine/src/vendor/spdlog/include;</AdditionalIncludeDirectories>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
