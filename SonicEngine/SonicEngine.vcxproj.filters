@@ -30,6 +30,9 @@
     <ClInclude Include="src\Sonic\managers\EventManager\Event.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Sonic\managers\EventManager\Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Sonic\Application.cpp">

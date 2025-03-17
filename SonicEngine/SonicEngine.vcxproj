@@ -143,6 +143,7 @@
     <ClInclude Include="src\Sonic\Application.h" />
     <ClInclude Include="src\Sonic\Core.h" />
     <ClInclude Include="src\Sonic\managers\EventManager\Event.h" />
+    <ClInclude Include="src\Sonic\managers\EventManager\Keyboard.h" />
     <ClInclude Include="src\Sonic\managers\LogManager\LogManager.h" />
   </ItemGroup>
   <ItemGroup>

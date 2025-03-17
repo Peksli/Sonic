@@ -24,13 +24,26 @@ namespace Sonic
 		Mouse
 	};
 
-
-	class Event
+#pragma region Abstract classes according to interface segregation
+	class Abs_GetEventType
 	{
 	public:
 		virtual EventType GetEventType() const = 0;
-		virtual EventCategory GetEventCategory() const = 0;
+	};
+
+
+	class Abs_GetEventCategory
+	{
+	public:
+		virtual int GetEventCategory() const = 0;
+	};
+
+
+	class Abs_GetEventName
+	{
+	public:
 		virtual std::string GetEventName() const = 0;
 	};
+#pragma endregion
 
 }
